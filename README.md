@@ -1,5 +1,29 @@
 # Arch Linux on Macbook Air 7,1
 
+These are my install notes and configs for my early 2015 Macbook Air running Arch Linux.
+
+In the [conf](conf/) directory, the `*.conf` files are structured as if they were under `/`.
+
+```
+$ tree conf
+conf
+├── boot
+│   └── loader
+│       ├── entries
+│       │   ├── arch.conf
+│       │   └── arch-macbook.conf
+│       └── loader.conf
+└── etc
+    ├── fstab
+    ├── iwd
+    │   └── main.conf
+    ├── makepkg.conf
+    ├── mkinitcpio.conf
+    └── ykfde.conf
+
+5 directories, 8 files
+```
+
 ## Requirements
 
 - An existing Arch Linux system (can be a VM or docker container)
