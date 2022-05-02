@@ -24,6 +24,10 @@ conf
 5 directories, 8 files
 ```
 
+## What doesn't work
+
+- Suspend to RAM. Even with the linux-macbook kernel in the AUR I cannot get this to work...
+
 ## Requirements
 
 - An existing Arch Linux system (can be a VM or docker container)
