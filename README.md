@@ -1,5 +1,7 @@
 # Arch Linux on Macbook Air 7,1
 
+![neofetch](img/neofetch.png)
+
 These are my install notes and configs for my early 2015 Macbook Air running Arch Linux.
 
 In the [conf](conf/) directory, the `*.conf` files are structured as if they were under `/`.
