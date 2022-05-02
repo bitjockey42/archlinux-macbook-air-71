@@ -1,0 +1,14 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/mapper/vgcrypt-root UUID=92b5a981-37e3-4eaf-8324-8dd7353b1c21
+/dev/mapper/vgcrypt-root	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p1 UUID=67E3-17ED
+LABEL=EFI           	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sdb1 UUID=483fd481-b810-4860-9fda-85221c22a4ec
+#/dev/sdb1           	/repo     	ext4      	rw,relatime	0 2
+
+/swapfile none swap defaults 0 0
